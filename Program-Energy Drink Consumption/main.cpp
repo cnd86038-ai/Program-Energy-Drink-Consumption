@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-	int TOTAL_CUSTOMERS = 16500;
-	int PERCENT_ENERGY_DRINKS = 15;
-	int PERCENT_CITRUS_FLAVOR = 58;
+	const int TOTAL_CUSTOMERS = 16500;
+	const int PERCENT_ENERGY_DRINKS = 15;
+	const int PERCENT_CITRUS_FLAVOR = 58;
 
 	double customers_energy_drinks = TOTAL_CUSTOMERS * (PERCENT_ENERGY_DRINKS / 100);
 	double customers_citrus_flavor = customers_energy_drinks * (PERCENT_CITRUS_FLAVOR / 100);
